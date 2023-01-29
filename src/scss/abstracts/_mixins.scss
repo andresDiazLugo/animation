@@ -1,0 +1,21 @@
+@mixin generateColor(){
+    $colors : (s1: blue, s2:red, s3:yellow, s4:orange, s5:pink, s6:green);
+    @each $key, $color in $colors{
+        .#{$key} {background-color: $color;}
+    }
+}
+
+@mixin keyframes (){
+
+
+@keyframes element {
+from{
+    transform: rotate3d(1, 1, 1, 45deg);
+}
+to{
+    transform: rotate3d(0, 1, 0.5, 3.142rad);
+
+}
+
+}
+}
