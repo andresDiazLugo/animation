@@ -19,7 +19,7 @@ function App() {
       <div className='parpado'>
         <div className="container">
           <div className='children'>
-            <img src='https://us.123rf.com/450wm/20er/20er1311/20er131100169/24098472-ilustraci%C3%B3n-de-un-iris-amarillo-animales.jpg?ver=6'/>
+            <img src='https://us.123rf.com/450wm/tranac/tranac1506/tranac150600028/41497312-de-ojos-de-color-rosa-sangriento-del-extranjero-con-anillo-amarillo-alrededor-de-la-pupila.jpg?ver=6'/>
           </div>
         </div>
       </div>
