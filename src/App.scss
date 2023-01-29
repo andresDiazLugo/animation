@@ -123,7 +123,10 @@
       display: grid;
       place-items: center;
       margin-left: 2rem;
-      animation:rotat 10s infinite linear;
+       -webkit-animation: 3s rotat linear infinite;
+    animation: 3s rotat linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
       transition: all 0.2s ease-in-out;
       .children{
         width: 4rem;
