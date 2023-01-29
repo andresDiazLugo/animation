@@ -23,6 +23,7 @@
     -webkit-box-shadow: inset 4px 33px 57px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: inset 4px 33px 57px 0px rgba(0,0,0,0.75);
     box-shadow: inset 4px 33px 57px 0px rgba(0,0,0,0.75);
+    transition: all 0.2s ease-in-out;
   .container{
     width: 4.3rem;
     height: 4.3rem;
@@ -50,6 +51,7 @@
   @keyframes moveEyes {
     10%{
       transform: translateX(2px);
+      transition: all 0.2s ease-in-out;
     }
     20%{
       
@@ -77,11 +79,12 @@
     }
     90%{
       transform: translateX(22px);
-      
+      transition: all 0.2s ease-in-out;
     }
 
     100%{
       transform: translateY(12px);
+      transition: all 0.2s ease-in-out;
       
     }
   }
@@ -110,6 +113,7 @@
       -webkit-box-shadow: inset 4px 33px 57px 0px rgba(0,0,0,0.75);
       -moz-box-shadow: inset 4px 33px 57px 0px rgba(0,0,0,0.75);
       box-shadow: inset 4px 33px 57px 0px rgba(0,0,0,0.75);
+      transition: all 0.2s ease-in-out;
     .container{
       width: 4.3rem;
       height: 4.3rem;
@@ -120,6 +124,7 @@
       place-items: center;
       margin-left: 2rem;
       animation:rotat 10s infinite linear;
+      transition: all 0.2s ease-in-out;
       .children{
         width: 4rem;
         height: 4rem;
@@ -135,9 +140,11 @@
     @keyframes rotat {
         to{
           rotate:360deg ;
+          transition: all 0.2s ease-in-out;
         }
         from{
           rotate: 180deg;
+          transition: all 0.2s ease-in-out;  
         }
     }
   }
