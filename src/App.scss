@@ -138,14 +138,8 @@
       }
     }
     @keyframes rotat {
-        to{
-          rotate:360deg ;
-          transition: all 0.2s ease-in-out;
-        }
-        from{
-          rotate: 360deg;
-          transition: all 0.2s ease-in-out;  
-        }
+      to {transform: rotate(360deg);}}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
     }
   }
 }
